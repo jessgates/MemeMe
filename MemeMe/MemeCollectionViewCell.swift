@@ -6,4 +6,11 @@
 //  Copyright © 2016 Jess Gates. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MemeCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet var memeThumbImage: UIImageView!
+    
+    
+}
