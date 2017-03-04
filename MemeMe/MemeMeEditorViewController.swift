@@ -171,13 +171,6 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
         let memedImage = generateMemedImage()
         let activityViewController = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
         present(activityViewController, animated: true, completion: nil)
-//        activityViewController.completionWithItemsHandler = {
-//            (activity: String?, completed: Bool, items: [AnyObject]?, error: NSError?) -> Void in
-//            if completed {
-//                self.save()
-//                self.dismiss(animated: true, completion: nil)
-//            }
-//        }
     }
     
     @IBAction func cancelMeme(_ sender: AnyObject) {
